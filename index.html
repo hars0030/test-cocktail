@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Cocktail API</title>
+    <link rel="stylesheet" href="./css/main.css" />
+  </head>
+  <body>
+    <header><h1>Cocktail collection</h1></header>
+    <main>
+      <div class="container">
+        <form action="#" class="form">
+          <h2><label for="userInput">Search your drink</label></h2>
+          <input id="userInput" type="text" />
+          <button type="submit" id="searchBtn">Search</button>
+          <button id="savedBtn">Saved</button>
+        </form>
+        <div class="output"></div>
+        <div class="savedOutput"></div>
+      </div>
+      <dialog id="dialogCover">
+        <!-- <div id="dialog"> -->
+          <h4 id="dialogTitle"></h4>
+          <img id="img" src="/" />
+          <p id="instructions">Instructions</p>
+        <!-- </div> -->
+        <div>
+          <button id="dialogClose">Close</button>
+          <button id="dialogSave">Save</button>
+          <button id="dialogDelete">Delete</button>
+        </div>
+      </dialog>
+    </main>
+    <script src="./js/main.js"></script>
+  </body>
+</html>

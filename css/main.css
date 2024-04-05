@@ -1,0 +1,96 @@
+html {
+  padding: 0;
+}
+
+body {
+  margin: 0;
+  text-align: center;
+  background-color: #d4f2db;
+}
+
+header {
+  color: antiquewhite;
+  padding: 2rem 0;
+  background-color: #95190c;
+  width: 100%;
+  font-size: 2.7rem;
+}
+
+dialog {
+  background-color: #a53f2b;
+  color: aliceblue;
+  height: 70%;
+  width: 50%;
+  align-items: center;
+  justify-items: center;
+
+  img {
+    width: 50%;
+  }
+  p {
+    margin-bottom: 2rem;
+  }
+  border-radius: 2rem;
+  button {
+    color: aliceblue;
+    background-color: #db5461;
+    margin: 1rem 3rem;
+  }
+  padding: 2rem;
+}
+
+h1 {
+  margin: 0;
+}
+h2 {
+  font-size: 2.5rem;
+}
+h4 {
+  font-size: 2rem;
+  margin: 0;
+  margin-bottom: 4rem;
+}
+
+input {
+  width: 50%;
+  font-size: 1.345rem;
+  border-radius: 0.8rem;
+}
+button {
+  border-radius: 0.8rem;
+  font-size: 1.345rem;
+}
+
+.container {
+  width: min(65em, 100%);
+  padding-inline: 1.5rem;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  gap: 3rem;
+}
+
+.output,
+.savedOutput {
+  display: grid;
+  gap: 2rem;
+  grid-template-columns: 1fr 1fr 1fr;
+  img {
+    width: 100%;
+  }
+}
+
+.card {
+  border: 2px solid black;
+  background-color: antiquewhite;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  border-radius: 1rem;
+  overflow: hidden;
+}
+
+.hide {
+  display: none;
+}
